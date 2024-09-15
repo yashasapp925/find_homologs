@@ -19,4 +19,3 @@ while read -r line; do
     done < "temp2.txt"
 done < "$bed_file"
 sort -u temp3.txt >> "$output_file"
-cat $output_file
